@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution {
+class SolutionA {
     func buildArray(_ nums: [Int]) -> [Int] {
         let length = nums.count
         var array: [Int] = []

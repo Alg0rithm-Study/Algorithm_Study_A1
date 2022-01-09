@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47FA278B2B7C00B1A91C /* main.swift */; };
 		DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */; };
+		DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		DE7E47F7278B2B7C00B1A91C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7E47FA278B2B7C00B1A91C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildArrayFromPermutation.swift; sourceTree = "<group>"; };
+		DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenationOfArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */,
+				DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
 				DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */,
 				DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */,
 			);
