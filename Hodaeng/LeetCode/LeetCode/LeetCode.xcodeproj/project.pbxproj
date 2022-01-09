@@ -11,6 +11,7 @@
 		DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */; };
 		DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */; };
 		DE7E4808278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4807278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift */; };
+		DE7E480A278B2E0300B1A91C /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4809278B2E0300B1A91C /* MiddleOfTheLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildArrayFromPermutation.swift; sourceTree = "<group>"; };
 		DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenationOfArray.swift; sourceTree = "<group>"; };
 		DE7E4807278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertBinaryNumberInALinkedListToInteger.swift; sourceTree = "<group>"; };
+		DE7E4809278B2E0300B1A91C /* MiddleOfTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7E4807278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift */,
+				DE7E4809278B2E0300B1A91C /* MiddleOfTheLinkedList.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7E480A278B2E0300B1A91C /* MiddleOfTheLinkedList.swift in Sources */,
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
 				DE7E4808278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */,
 				DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */,
