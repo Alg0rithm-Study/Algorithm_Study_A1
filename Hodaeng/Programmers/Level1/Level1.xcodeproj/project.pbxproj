@@ -12,6 +12,7 @@
 		DE7E47E7278B2A5400B1A91C /* makeCommonMultipleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */; };
 		DE7E47E9278B2AA800B1A91C /* sumMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E8278B2AA800B1A91C /* sumMatrix.swift */; };
 		DE7E47EB278B2AF200B1A91C /* hidePhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47EA278B2AF200B1A91C /* hidePhoneNumber.swift */; };
+		DE7E47ED278B2B2200B1A91C /* HashadNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47EC278B2B2200B1A91C /* HashadNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeCommonMultipleNumber.swift; sourceTree = "<group>"; };
 		DE7E47E8278B2AA800B1A91C /* sumMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumMatrix.swift; sourceTree = "<group>"; };
 		DE7E47EA278B2AF200B1A91C /* hidePhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hidePhoneNumber.swift; sourceTree = "<group>"; };
+		DE7E47EC278B2B2200B1A91C /* HashadNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashadNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */,
 				DE7E47E8278B2AA800B1A91C /* sumMatrix.swift */,
 				DE7E47EA278B2AF200B1A91C /* hidePhoneNumber.swift */,
+				DE7E47EC278B2B2200B1A91C /* HashadNumber.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7E47E9278B2AA800B1A91C /* sumMatrix.swift in Sources */,
+				DE7E47ED278B2B2200B1A91C /* HashadNumber.swift in Sources */,
 				DE7E47E7278B2A5400B1A91C /* makeCommonMultipleNumber.swift in Sources */,
 				DE7E47EB278B2AF200B1A91C /* hidePhoneNumber.swift in Sources */,
 				DE7E47E5278B29D100B1A91C /* drawSquare.swift in Sources */,
