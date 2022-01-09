@@ -11,6 +11,7 @@
 		DE7E47E5278B29D100B1A91C /* drawSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E4278B29D100B1A91C /* drawSquare.swift */; };
 		DE7E47E7278B2A5400B1A91C /* makeCommonMultipleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */; };
 		DE7E47E9278B2AA800B1A91C /* sumMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E8278B2AA800B1A91C /* sumMatrix.swift */; };
+		DE7E47EB278B2AF200B1A91C /* hidePhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47EA278B2AF200B1A91C /* hidePhoneNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		DE7E47E4278B29D100B1A91C /* drawSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawSquare.swift; sourceTree = "<group>"; };
 		DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeCommonMultipleNumber.swift; sourceTree = "<group>"; };
 		DE7E47E8278B2AA800B1A91C /* sumMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumMatrix.swift; sourceTree = "<group>"; };
+		DE7E47EA278B2AF200B1A91C /* hidePhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hidePhoneNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				DE7E47E4278B29D100B1A91C /* drawSquare.swift */,
 				DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */,
 				DE7E47E8278B2AA800B1A91C /* sumMatrix.swift */,
+				DE7E47EA278B2AF200B1A91C /* hidePhoneNumber.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			files = (
 				DE7E47E9278B2AA800B1A91C /* sumMatrix.swift in Sources */,
 				DE7E47E7278B2A5400B1A91C /* makeCommonMultipleNumber.swift in Sources */,
+				DE7E47EB278B2AF200B1A91C /* hidePhoneNumber.swift in Sources */,
 				DE7E47E5278B29D100B1A91C /* drawSquare.swift in Sources */,
 				DE7E47DE278B28EF00B1A91C /* main.swift in Sources */,
 			);
