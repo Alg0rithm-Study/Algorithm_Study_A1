@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SolutionB {
+class SolutionArrayB {
     func getConcatenation(_ nums: [Int]) -> [Int] {
         var arr: [Int] = []
         

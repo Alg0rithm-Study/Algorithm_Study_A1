@@ -10,6 +10,7 @@
 		DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47FA278B2B7C00B1A91C /* main.swift */; };
 		DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */; };
 		DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */; };
+		DE7E4808278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4807278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		DE7E47FA278B2B7C00B1A91C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildArrayFromPermutation.swift; sourceTree = "<group>"; };
 		DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenationOfArray.swift; sourceTree = "<group>"; };
+		DE7E4807278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertBinaryNumberInALinkedListToInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		DE7E4802278B2BE000B1A91C /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				DE7E4807278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
+				DE7E4808278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */,
 				DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */,
 				DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */,
 			);
