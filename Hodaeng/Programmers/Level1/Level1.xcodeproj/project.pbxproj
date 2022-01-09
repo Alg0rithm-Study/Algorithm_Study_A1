@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE7E47DE278B28EF00B1A91C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47DD278B28EF00B1A91C /* main.swift */; };
 		DE7E47E5278B29D100B1A91C /* drawSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E4278B29D100B1A91C /* drawSquare.swift */; };
+		DE7E47E7278B2A5400B1A91C /* makeCommonMultipleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		DE7E47DA278B28EF00B1A91C /* Level1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Level1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7E47DD278B28EF00B1A91C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DE7E47E4278B29D100B1A91C /* drawSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drawSquare.swift; sourceTree = "<group>"; };
+		DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeCommonMultipleNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				DE7E47DD278B28EF00B1A91C /* main.swift */,
 				DE7E47E4278B29D100B1A91C /* drawSquare.swift */,
+				DE7E47E6278B2A5400B1A91C /* makeCommonMultipleNumber.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7E47E7278B2A5400B1A91C /* makeCommonMultipleNumber.swift in Sources */,
 				DE7E47E5278B29D100B1A91C /* drawSquare.swift in Sources */,
 				DE7E47DE278B28EF00B1A91C /* main.swift in Sources */,
 			);
