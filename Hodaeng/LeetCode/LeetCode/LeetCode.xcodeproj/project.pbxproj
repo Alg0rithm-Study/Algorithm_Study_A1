@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE06BCD6278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */; };
 		DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47FA278B2B7C00B1A91C /* main.swift */; };
 		DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */; };
 		DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNumberOfWordsFoundInSentence.swift; sourceTree = "<group>"; };
 		DE7E47F7278B2B7C00B1A91C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7E47FA278B2B7C00B1A91C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildArrayFromPermutation.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */,
 				DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */,
 				DE7E480D278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift */,
+				DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */,
 				DE7E480C278B2EC700B1A91C /* DeleteNodeInALinkedList.swift in Sources */,
 				DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */,
+				DE06BCD6278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
