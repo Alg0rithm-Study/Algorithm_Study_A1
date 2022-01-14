@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE02A6432790FCE00089F08A /* NumberOfRecentCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02A6422790FCE00089F08A /* NumberOfRecentCalls.swift */; };
 		DE06BCD6278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */; };
 		DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06BCD7278C7E60003F221A /* ReverseLinkedList.swift */; };
 		DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE02A6422790FCE00089F08A /* NumberOfRecentCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRecentCalls.swift; sourceTree = "<group>"; };
 		DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNumberOfWordsFoundInSentence.swift; sourceTree = "<group>"; };
 		DE06BCD7278C7E60003F221A /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		DEAC516A279078FD003D66EC /* Queue */ = {
 			isa = PBXGroup;
 			children = (
+				DE02A6422790FCE00089F08A /* NumberOfRecentCalls.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */,
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
 				DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */,
+				DE02A6432790FCE00089F08A /* NumberOfRecentCalls.swift in Sources */,
 				DE7E4808278B2D9A00B1A91C /* ConvertBinaryNumberInALinkedListToInteger.swift in Sources */,
 				DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */,
 				DE7E480C278B2EC700B1A91C /* DeleteNodeInALinkedList.swift in Sources */,
