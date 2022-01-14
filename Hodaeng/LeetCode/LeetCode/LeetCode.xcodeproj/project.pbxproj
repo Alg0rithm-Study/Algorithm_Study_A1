@@ -18,6 +18,7 @@
 		DE7E480A278B2E0300B1A91C /* MiddleOfTheLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4809278B2E0300B1A91C /* MiddleOfTheLinkedList.swift */; };
 		DE7E480C278B2EC700B1A91C /* DeleteNodeInALinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E480B278B2EC700B1A91C /* DeleteNodeInALinkedList.swift */; };
 		DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E480D278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift */; };
+		DEAC516C2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC516B2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		DE7E4809278B2E0300B1A91C /* MiddleOfTheLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleOfTheLinkedList.swift; sourceTree = "<group>"; };
 		DE7E480B278B2EC700B1A91C /* DeleteNodeInALinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNodeInALinkedList.swift; sourceTree = "<group>"; };
 		DE7E480D278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalValueOfVariableAfterPerformingOperations.swift; sourceTree = "<group>"; };
+		DEAC516B2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNestingDepthOfTheParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 		DE7E47F9278B2B7C00B1A91C /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DEAC516A279078FD003D66EC /* Queue */,
+				DEAC5169279078F1003D66EC /* Stack */,
 				DE7E4802278B2BE000B1A91C /* LinkedList */,
 				DE7E4801278B2BDA00B1A91C /* Array */,
 				DE7E47FA278B2B7C00B1A91C /* main.swift */,
@@ -106,6 +110,21 @@
 				DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		DEAC5169279078F1003D66EC /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				DEAC516B2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		DEAC516A279078FD003D66EC /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +188,7 @@
 				DE229A08278DD80300B46E3B /* RunningSumOf1DArray.swift in Sources */,
 				DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */,
 				DE7E480A278B2E0300B1A91C /* MiddleOfTheLinkedList.swift in Sources */,
+				DEAC516C2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift in Sources */,
 				DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */,
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
 				DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */,
