@@ -8,4 +8,8 @@
 import Foundation
 
 print("Hello, World!")
+let test = SolutionQueueB()
+let students = [1,1,0,0]
+let sandwitches = [0,1,0,1]
 
+test.countStudents(students, sandwitches)
