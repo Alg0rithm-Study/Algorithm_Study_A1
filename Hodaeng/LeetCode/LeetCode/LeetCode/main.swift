@@ -7,13 +7,13 @@
 
 import Foundation
 
-print("Hello, World!")
-let test = SolutionQueueB()
-let students = [1,1,0,0]
-let sandwitches = [0,1,0,1]
+//print("Hello, World!")
+//let test = SolutionQueueB()
+//let students = [1,1,0,0]
+//let sandwitches = [0,1,0,1]
+//
+//test.countStudents(students, sandwitches)
 
-test.countStudents(students, sandwitches)
-
-let testa = SolutionStackC()
-let a = [8,4,6,2,3]
-testa.finalPrices(a)
+let testa = SolutionQueueC()
+let a = [2,3,2]
+testa.timeRequiredToBuy(a, 2)
