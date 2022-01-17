@@ -14,6 +14,7 @@
 		DE229A08278DD80300B46E3B /* RunningSumOf1DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE229A07278DD80300B46E3B /* RunningSumOf1DArray.swift */; };
 		DE4026372792582400FE0EB9 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */; };
 		DE40263927925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40263827925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift */; };
+		DE7E0C13279597590009601A /* FinalPricesWithASpecialDiscountInAShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E0C12279597590009601A /* FinalPricesWithASpecialDiscountInAShop.swift */; };
 		DE7E47FB278B2B7C00B1A91C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E47FA278B2B7C00B1A91C /* main.swift */; };
 		DE7E4804278B2C1500B1A91C /* BuildArrayFromPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */; };
 		DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E4805278B2CA100B1A91C /* ConcatenationOfArray.swift */; };
@@ -44,6 +45,7 @@
 		DE229A07278DD80300B46E3B /* RunningSumOf1DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumOf1DArray.swift; sourceTree = "<group>"; };
 		DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
 		DE40263827925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfStudentsUnableToEatLunch.swift; sourceTree = "<group>"; };
+		DE7E0C12279597590009601A /* FinalPricesWithASpecialDiscountInAShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPricesWithASpecialDiscountInAShop.swift; sourceTree = "<group>"; };
 		DE7E47F7278B2B7C00B1A91C /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7E47FA278B2B7C00B1A91C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DE7E4803278B2C1500B1A91C /* BuildArrayFromPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildArrayFromPermutation.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				DEAC516B2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift */,
 				DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */,
+				DE7E0C12279597590009601A /* FinalPricesWithASpecialDiscountInAShop.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7E0C13279597590009601A /* FinalPricesWithASpecialDiscountInAShop.swift in Sources */,
 				DE229A08278DD80300B46E3B /* RunningSumOf1DArray.swift in Sources */,
 				DE40263927925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift in Sources */,
 				DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */,
