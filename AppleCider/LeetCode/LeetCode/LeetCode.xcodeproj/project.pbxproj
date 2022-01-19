@@ -9,9 +9,16 @@
 /* Begin PBXBuildFile section */
 		361A66C0279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A66BF279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift */; };
 		361A66C2279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A66C1279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift */; };
+		361A66C42795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A66C32795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift */; };
+		361A66C6279570B700A633B5 /* [애플사이다] Middle of the Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A66C5279570B700A633B5 /* [애플사이다] Middle of the Linked List.swift */; };
+		361A66C82795713B00A633B5 /* [애플사이다] Delete Node in a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A66C72795713B00A633B5 /* [애플사이다] Delete Node in a Linked List.swift */; };
+		361A66CA2795715200A633B5 /* [애플사이다] Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A66C92795715200A633B5 /* [애플사이다] Reverse Linked List.swift */; };
 		3637AE15278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637AE14278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift */; };
 		3637AE17278D054B009003B7 /* [애플사이다] Concatenation of Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637AE16278D054B009003B7 /* [애플사이다] Concatenation of Array.swift */; };
 		3637AE19278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637AE18278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift */; };
+		36D617B927979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D617B827979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift */; };
+		36D617BB2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D617BA2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift */; };
+		36D617BD2797C24C00F7A9AB /* [애플사이다] Final Prices With a Special Discount in a Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D617BC2797C24C00F7A9AB /* [애플사이다] Final Prices With a Special Discount in a Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +36,17 @@
 /* Begin PBXFileReference section */
 		361A66BF279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Maximum Number of Words Found in Sentences.swift"; sourceTree = "<group>"; };
 		361A66C1279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Running Sum of 1d Array.swift"; sourceTree = "<group>"; };
+		361A66C32795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
+		361A66C5279570B700A633B5 /* [애플사이다] Middle of the Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Middle of the Linked List.swift"; sourceTree = "<group>"; };
+		361A66C72795713B00A633B5 /* [애플사이다] Delete Node in a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Delete Node in a Linked List.swift"; sourceTree = "<group>"; };
+		361A66C92795715200A633B5 /* [애플사이다] Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Reverse Linked List.swift"; sourceTree = "<group>"; };
 		3637AE0A278D0515009003B7 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3637AE14278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Build Array from Permutation.swift"; sourceTree = "<group>"; };
 		3637AE16278D054B009003B7 /* [애플사이다] Concatenation of Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Concatenation of Array.swift"; sourceTree = "<group>"; };
 		3637AE18278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Final Value of Variable After Performing Operations.swift"; sourceTree = "<group>"; };
+		36D617B827979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Maximum Nesting Depth of the Parentheses.swift"; sourceTree = "<group>"; };
+		36D617BA2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Remove Outermost Parentheses.swift"; sourceTree = "<group>"; };
+		36D617BC2797C24C00F7A9AB /* [애플사이다] Final Prices With a Special Discount in a Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Final Prices With a Special Discount in a Shop.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,13 @@
 				3637AE18278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift */,
 				361A66BF279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift */,
 				361A66C1279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift */,
+				361A66C32795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift */,
+				361A66C5279570B700A633B5 /* [애플사이다] Middle of the Linked List.swift */,
+				361A66C72795713B00A633B5 /* [애플사이다] Delete Node in a Linked List.swift */,
+				361A66C92795715200A633B5 /* [애플사이다] Reverse Linked List.swift */,
+				36D617B827979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift */,
+				36D617BA2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift */,
+				36D617BC2797C24C00F7A9AB /* [애플사이다] Final Prices With a Special Discount in a Shop.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -132,10 +153,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D617BD2797C24C00F7A9AB /* [애플사이다] Final Prices With a Special Discount in a Shop.swift in Sources */,
 				3637AE19278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift in Sources */,
 				361A66C2279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift in Sources */,
 				361A66C0279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift in Sources */,
+				361A66C42795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift in Sources */,
+				36D617B927979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift in Sources */,
+				361A66CA2795715200A633B5 /* [애플사이다] Reverse Linked List.swift in Sources */,
+				36D617BB2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift in Sources */,
 				3637AE15278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift in Sources */,
+				361A66C82795713B00A633B5 /* [애플사이다] Delete Node in a Linked List.swift in Sources */,
+				361A66C6279570B700A633B5 /* [애플사이다] Middle of the Linked List.swift in Sources */,
 				3637AE17278D054B009003B7 /* [애플사이다] Concatenation of Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
