@@ -13,6 +13,7 @@
 		DE193C59279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193C58279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift */; };
 		DE193C5B2796871C00ECF346 /* ImplementQueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193C5A2796871C00ECF346 /* ImplementQueueUsingStack.swift */; };
 		DE212FD827978C55003EDDEB /* BuildAnArrayWithStackOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE212FD727978C55003EDDEB /* BuildAnArrayWithStackOperations.swift */; };
+		DE212FDA2797953C003EDDEB /* ImplementStackUsingQueues.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE212FD92797953C003EDDEB /* ImplementStackUsingQueues.swift */; };
 		DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */; };
 		DE229A08278DD80300B46E3B /* RunningSumOf1DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE229A07278DD80300B46E3B /* RunningSumOf1DArray.swift */; };
 		DE4026372792582400FE0EB9 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */; };
@@ -48,6 +49,7 @@
 		DE193C58279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAllAdjacentDuplicatesInString.swift; sourceTree = "<group>"; };
 		DE193C5A2796871C00ECF346 /* ImplementQueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueUsingStack.swift; sourceTree = "<group>"; };
 		DE212FD727978C55003EDDEB /* BuildAnArrayWithStackOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildAnArrayWithStackOperations.swift; sourceTree = "<group>"; };
+		DE212FD92797953C003EDDEB /* ImplementStackUsingQueues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementStackUsingQueues.swift; sourceTree = "<group>"; };
 		DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		DE229A07278DD80300B46E3B /* RunningSumOf1DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumOf1DArray.swift; sourceTree = "<group>"; };
 		DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				DE40263827925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift */,
 				DE7E0C142795A2020009601A /* TimeNeededToBuyTickets.swift */,
 				DE193C5A2796871C00ECF346 /* ImplementQueueUsingStack.swift */,
+				DE212FD92797953C003EDDEB /* ImplementStackUsingQueues.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				DE7E0C152795A2020009601A /* TimeNeededToBuyTickets.swift in Sources */,
 				DEAC516C2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift in Sources */,
 				DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */,
+				DE212FDA2797953C003EDDEB /* ImplementStackUsingQueues.swift in Sources */,
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
 				DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */,
 				DE02A6432790FCE00089F08A /* NumberOfRecentCalls.swift in Sources */,
