@@ -14,6 +14,7 @@ import Foundation
 //
 //test.countStudents(students, sandwitches)
 
-let testa = SolutionQueueC()
-let a = [2,3,2]
-testa.timeRequiredToBuy(a, 2)
+let testa = SolutionStackE()
+let a = [1,3]
+let n = 3
+testa.buildArray(a, n)

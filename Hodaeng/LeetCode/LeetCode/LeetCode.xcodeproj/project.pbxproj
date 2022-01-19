@@ -12,6 +12,7 @@
 		DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06BCD7278C7E60003F221A /* ReverseLinkedList.swift */; };
 		DE193C59279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193C58279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift */; };
 		DE193C5B2796871C00ECF346 /* ImplementQueueUsingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE193C5A2796871C00ECF346 /* ImplementQueueUsingStack.swift */; };
+		DE212FD827978C55003EDDEB /* BuildAnArrayWithStackOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE212FD727978C55003EDDEB /* BuildAnArrayWithStackOperations.swift */; };
 		DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */; };
 		DE229A08278DD80300B46E3B /* RunningSumOf1DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE229A07278DD80300B46E3B /* RunningSumOf1DArray.swift */; };
 		DE4026372792582400FE0EB9 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */; };
@@ -46,6 +47,7 @@
 		DE06BCD7278C7E60003F221A /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		DE193C58279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAllAdjacentDuplicatesInString.swift; sourceTree = "<group>"; };
 		DE193C5A2796871C00ECF346 /* ImplementQueueUsingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementQueueUsingStack.swift; sourceTree = "<group>"; };
+		DE212FD727978C55003EDDEB /* BuildAnArrayWithStackOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildAnArrayWithStackOperations.swift; sourceTree = "<group>"; };
 		DE229A05278DCFEF00B46E3B /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		DE229A07278DD80300B46E3B /* RunningSumOf1DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningSumOf1DArray.swift; sourceTree = "<group>"; };
 		DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */,
 				DE7E0C12279597590009601A /* FinalPricesWithASpecialDiscountInAShop.swift */,
 				DE193C58279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift */,
+				DE212FD727978C55003EDDEB /* BuildAnArrayWithStackOperations.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				DE193C5B2796871C00ECF346 /* ImplementQueueUsingStack.swift in Sources */,
 				DE229A08278DD80300B46E3B /* RunningSumOf1DArray.swift in Sources */,
 				DE40263927925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift in Sources */,
+				DE212FD827978C55003EDDEB /* BuildAnArrayWithStackOperations.swift in Sources */,
 				DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */,
 				DE7E480A278B2E0300B1A91C /* MiddleOfTheLinkedList.swift in Sources */,
 				DE7E0C152795A2020009601A /* TimeNeededToBuyTickets.swift in Sources */,
