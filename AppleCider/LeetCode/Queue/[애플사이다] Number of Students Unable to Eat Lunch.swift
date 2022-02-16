@@ -23,24 +23,49 @@ class Solution {
         return students.count
     }
 }
+// 문제 : 샌드위치 Stack과 학생 Queue가 있을 때, 맨 위의 샌드위치와 학생이 일치하면 샌드위치를 먹을 수 있음
 // 풀이
 // 샌드위치의 index0이 학생의 index0과 일치하면, 둘다 배열에서 삭제함
 // 일치하지 않으면, 학생을 배열의 맨 뒤로 보냄
 // 샌드위치-학생을 비교하는 경우의 수 (학생 수가 n명일 때, 최대 n(n+1)/2 번 비교)만큼 반복문을 돌림
 // faster than 100.00% of Swift online submissions
+// 개선하고 싶은 부분 : 최악의 상황을 가정하여 반복 횟수를 정하므로 비효율적일 수 있음
+
+// 개선
+// 반복 횟수를 "맨 위의 샌드위치를 원하는 학생이 없을 때까지"로 변경
+func countStudents(_ students: [Int], _ sandwiches: [Int]) -> Int {
+    var students = students  
+    var sandwiches = sandwiches
+//    let repeatCount = students.count * (students.count + 1) / 2
+    var peekFirstSandwich: Int? {  // 추가
+        return sandwiches.first
+    }
+    
+    while let firstSandwich = peekFirstSandwich, students.contains(firstSandwich) {  // 반복문 조건 개선
+        if firstSandwich == students[0] {  // guard문이 없어도 됨 (firstSandwich가 nil이면 while문이 실행되지 않으므로)
+            sandwiches.removeFirst()
+            students.removeFirst()
+        } else {
+            let removedStudent = students.removeFirst()
+            students.append(removedStudent)
+        }
+    }
+    
+    return students.count
+}
 
 
-// 참고 - 단순히 students 배열요소의 합과 sandwiches 배열의 합을 뺄셈만 해도 될까? => 안됨
+// 참고 (틀린 예시) - 단순히 students 배열요소의 합과 sandwiches 배열의 합을 뺄셈만 해도 될까? => 안됨
 func countStudents(_ students: [Int], _ sandwiches: [Int]) -> Int {
     let sumOfStudents = students.reduce(0, +)
     let sumOfSandwiches = sandwiches.reduce(0, +)
 
     return abs(sumOfStudents - sumOfSandwiches)
 }
-학생    [1,1,1,1]
-샌드위치 [0,1,1,1]
-=> 답은 4인데 1을 반환하는 문제 발생
-즉, 샌드위치의 순서가 중요함
+//학생    [1,1,1,1]
+//샌드위치 [0,1,1,1]
+//=> 답은 4인데 1을 반환하는 문제 발생
+//즉, 샌드위치의 순서가 중요함
 
 
 // 다른 풀이

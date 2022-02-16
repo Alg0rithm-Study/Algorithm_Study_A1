@@ -6,7 +6,7 @@ class Solution {
         var result: Int = 0
         
         for number in tickets {
-                        result += min(number, minimumTurns)  // 아래와 동일함
+            result += min(number, minimumTurns)  // 아래와 동일함
 //            if number < minimumTurns {
 //                result += number
 //            } else {
@@ -39,7 +39,7 @@ class Solution {
 
 
 // 다른 풀이
-func timeRequiredToBuy(_ tickets: [Int], _ k: Int) -> Int {
+func timeRequiredToBuy2(_ tickets: [Int], _ k: Int) -> Int {
     var array = tickets
     var answer = 0
     var ticketsLeft = tickets[k]
@@ -63,6 +63,6 @@ func timeRequiredToBuy(_ tickets: [Int], _ k: Int) -> Int {
 }
 
 // 다른 풀이
-func timeRequiredToBuy(_ tickets: [Int], _ k: Int) -> Int {
+func timeRequiredToBuy3(_ tickets: [Int], _ k: Int) -> Int {
         tickets.enumerated().reduce(0) { $0 + min($1.element, $1.offset > k ? tickets[k] - 1 : tickets[k]) }
 }

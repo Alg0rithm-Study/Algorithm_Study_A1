@@ -35,8 +35,8 @@ class Queue<T> {  // 더블 스택 큐
     }
     
     func enqueue(_ element: T) {
-                rightStack.append(element)
-        }
+        rightStack.append(element)
+    }
     
     @discardableResult
     func dequeue() -> T? {
@@ -52,16 +52,16 @@ class Queue<T> {  // 더블 스택 큐
     }
     
     var count: Int {
-                leftStack.count + rightStack.count
-        }
+        leftStack.count + rightStack.count
+    }
 }
 
 class RecentCounter {
     var queue: Queue<Int>
     
-        init() {
-                queue = Queue<Int>()
-        }
+    init() {
+        queue = Queue<Int>()
+    }
     
     func ping(_ t: Int) -> Int {
         queue.enqueue(t)
@@ -69,7 +69,7 @@ class RecentCounter {
         while queue.peek()! < t - 3000 {  // queue 요소가 t - 3000...t 범위에 속하지 않으면 dequeue 시킴
             queue.dequeue()
         }
-
+        
         return queue.count
     }
 }
@@ -77,17 +77,17 @@ class RecentCounter {
 // 다른 풀이
 // 위와 동일함
 class RecentCounter {
-    var reqa : [Int] = []
+    var requests : [Int] = []
     init() {
     }
     
     func ping(_ t: Int) -> Int {
-        reqa.append(t)
-
-        while reqa[0] < t - 3000 {
-            reqa.removeFirst()
+        requests.append(t)
+        
+        while requests[0] < t - 3000 {
+            requests.removeFirst()
         }
-
-        return reqa.count
+        
+        return requests.count
     }
 }
