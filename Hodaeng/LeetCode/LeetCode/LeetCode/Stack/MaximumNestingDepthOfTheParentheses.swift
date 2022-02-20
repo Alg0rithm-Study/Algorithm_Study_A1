@@ -19,6 +19,7 @@ class SolutionStackA {
             case ")":
                 count -= 1
             default:
+                print("괄호 아님")
                 break
             }
         }

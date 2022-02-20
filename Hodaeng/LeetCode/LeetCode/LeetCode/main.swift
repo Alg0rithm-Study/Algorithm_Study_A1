@@ -14,7 +14,11 @@ import Foundation
 //
 //test.countStudents(students, sandwitches)
 
-let testa = SolutionStackE()
-let a = [1,3]
+let testa = SolutionStackA()
+let a = "(1)+((2))+(((3)))"
 let n = 3
-testa.buildArray(a, n)
+testa.maxDepth(a)
+
+let aasdf = SolutionSortA()
+aasdf.minimumSum(4564)
+

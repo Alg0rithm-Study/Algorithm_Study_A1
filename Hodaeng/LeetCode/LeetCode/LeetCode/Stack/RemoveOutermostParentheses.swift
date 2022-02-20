@@ -5,6 +5,8 @@
 //  Created by 양호준 on 2022/01/15.
 //
 
+// 풀이 참조
+
 import Foundation
 
 class SolutionStackB {
