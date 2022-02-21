@@ -28,6 +28,7 @@
 		DE7E480C278B2EC700B1A91C /* DeleteNodeInALinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E480B278B2EC700B1A91C /* DeleteNodeInALinkedList.swift */; };
 		DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7E480D278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift */; };
 		DEAC516C2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC516B2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift */; };
+		DED44A7E27C3BFE100CDD89D /* HowManyNumbersAreSmallerThanTheCurrentNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED44A7D27C3BFE100CDD89D /* HowManyNumbersAreSmallerThanTheCurrentNumber.swift */; };
 		DEE52B8027C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE52B7F27C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		DE7E480B278B2EC700B1A91C /* DeleteNodeInALinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNodeInALinkedList.swift; sourceTree = "<group>"; };
 		DE7E480D278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalValueOfVariableAfterPerformingOperations.swift; sourceTree = "<group>"; };
 		DEAC516B2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNestingDepthOfTheParentheses.swift; sourceTree = "<group>"; };
+		DED44A7D27C3BFE100CDD89D /* HowManyNumbersAreSmallerThanTheCurrentNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowManyNumbersAreSmallerThanTheCurrentNumber.swift; sourceTree = "<group>"; };
 		DEE52B7F27C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumSumOfFourDigitNumberAfterSplittingDigits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				DEE52B7F27C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift */,
+				DED44A7D27C3BFE100CDD89D /* HowManyNumbersAreSmallerThanTheCurrentNumber.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */,
 				DE7E480A278B2E0300B1A91C /* MiddleOfTheLinkedList.swift in Sources */,
 				DE7E0C152795A2020009601A /* TimeNeededToBuyTickets.swift in Sources */,
+				DED44A7E27C3BFE100CDD89D /* HowManyNumbersAreSmallerThanTheCurrentNumber.swift in Sources */,
 				DEAC516C2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift in Sources */,
 				DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */,
 				DEE52B8027C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift in Sources */,
