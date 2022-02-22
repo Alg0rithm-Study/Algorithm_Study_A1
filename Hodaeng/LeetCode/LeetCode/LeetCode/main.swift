@@ -22,3 +22,5 @@ testa.maxDepth(a)
 let aasdf = SolutionSortA()
 aasdf.minimumSum(4564)
 
+let aaa = SolutionSortC()
+aaa.sortSentence("is2 sentence4 This1 a3")
