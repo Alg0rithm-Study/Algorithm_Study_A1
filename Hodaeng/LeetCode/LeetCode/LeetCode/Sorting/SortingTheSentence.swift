@@ -7,6 +7,8 @@
 
 import Foundation
 
+// Insertion sort로 해결 -> 다른 풀이로도 풀어보자~
+
 class SolutionSortC {
     func sortSentence(_ s: String) -> String {
         var sentenceElements: [String] = s.components(separatedBy: " ")
@@ -27,8 +29,11 @@ class SolutionSortC {
 //                sentenceElements.swapAt(lastWord - 1, index) // 이렇게 비교했을 때 "KTFkUVVrmYMSo2 wXlQraUqblfhCfDLK3 IfTuftYVualQ6 NhpQ5 HlRjClVtQrTFcwbx4 fi1" 실패
 //            }
 //        }
-//        for index in 0..<sentenceElements.count {
-//            sentenceElements[index].removeLast()
+        for index in 0..<sentenceElements.count {
+            sentenceElements[index].removeLast()
+        }
+//        sentenceElements.map { var element in
+//            element.removeLast()
 //        }
 //        sentenceElements.map { $0.removeLast() } // 왜 위에는 되고 이건 안되는걸까?
         print(sentenceElements.joined(separator: " "))
