@@ -16,6 +16,9 @@
 		3637AE15278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637AE14278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift */; };
 		3637AE17278D054B009003B7 /* [애플사이다] Concatenation of Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637AE16278D054B009003B7 /* [애플사이다] Concatenation of Array.swift */; };
 		3637AE19278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3637AE18278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift */; };
+		3692435227CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692435127CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift */; };
+		3692435427CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692435327CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift */; };
+		3692435627CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692435527CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift */; };
 		36D2140527AAB222003C6A77 /* [애플사이다] Number of Recent Calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2140427AAB222003C6A77 /* [애플사이다] Number of Recent Calls.swift */; };
 		36D2140927AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2140827AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift */; };
 		36D2140B27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2140A27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift */; };
@@ -51,6 +54,9 @@
 		3637AE14278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Build Array from Permutation.swift"; sourceTree = "<group>"; };
 		3637AE16278D054B009003B7 /* [애플사이다] Concatenation of Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Concatenation of Array.swift"; sourceTree = "<group>"; };
 		3637AE18278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Final Value of Variable After Performing Operations.swift"; sourceTree = "<group>"; };
+		3692435127CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Minimum Number of Moves to Seat Everyone.swift"; sourceTree = "<group>"; };
+		3692435327CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Maximum Product Difference Between Two Pairs.swift"; sourceTree = "<group>"; };
+		3692435527CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Array Partition I.swift"; sourceTree = "<group>"; };
 		36D2140427AAB222003C6A77 /* [애플사이다] Number of Recent Calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Number of Recent Calls.swift"; sourceTree = "<group>"; };
 		36D2140827AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Remove All Adjacent Duplicates In String.swift"; sourceTree = "<group>"; };
 		36D2140A27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Build an Array With Stack Operations.swift"; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 		3637AE01278D0515009003B7 = {
 			isa = PBXGroup;
 			children = (
+				3692435027CE8C1C004F0FE4 /* Sorting */,
 				36D2140327AAB208003C6A77 /* Queue */,
 				36D2140727AAB2A7003C6A77 /* Stack */,
 				36D2140627AAB265003C6A77 /* LinkedList */,
@@ -103,6 +110,16 @@
 				361A66C1279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		3692435027CE8C1C004F0FE4 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				3692435127CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift */,
+				3692435327CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift */,
+				3692435527CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift */,
+			);
+			path = Sorting;
 			sourceTree = "<group>";
 		};
 		36D2140327AAB208003C6A77 /* Queue */ = {
@@ -200,16 +217,19 @@
 			files = (
 				36D617BD2797C24C00F7A9AB /* [애플사이다] Final Prices With a Special Discount in a Shop.swift in Sources */,
 				36D2140D27AADDE8003C6A77 /* [애플사이다] Number of Students Unable to Eat Lunch.swift in Sources */,
+				3692435227CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift in Sources */,
 				3637AE19278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift in Sources */,
 				361A66C2279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift in Sources */,
 				361A66C0279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift in Sources */,
 				361A66C42795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift in Sources */,
+				3692435427CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift in Sources */,
 				36D617B927979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift in Sources */,
 				36D2140927AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift in Sources */,
 				36D2141127ABC4D3003C6A77 /* [애플사이다] Implement Queue using Stacks.swift in Sources */,
 				361A66CA2795715200A633B5 /* [애플사이다] Reverse Linked List.swift in Sources */,
 				36D617BB2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift in Sources */,
 				36D2140B27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift in Sources */,
+				3692435627CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift in Sources */,
 				3637AE15278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift in Sources */,
 				36D2141327ABC93E003C6A77 /* [애플사이다] First Unique Character in a String.swift in Sources */,
 				361A66C82795713B00A633B5 /* [애플사이다] Delete Node in a Linked List.swift in Sources */,
