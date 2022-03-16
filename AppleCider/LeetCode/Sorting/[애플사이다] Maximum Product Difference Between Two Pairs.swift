@@ -12,10 +12,10 @@ func maxProductDifference(_ nums: [Int]) -> Int {
 
 // 다른 풀이 - 직접 sorting
 func maxProductDifference2(_ nums: [Int]) -> Int {
-    var max = Int.min
+    var max = Int.min // nums의 최대값 요소와 대체하기 위해 임의의 작은 값을 할당
     var secondMax = Int.min
     
-    var min = Int.max
+    var min = Int.max // nums의 최소값 요소와 대체하기 위해 임의의 큰 값을 할당
     var secondMin = Int.max
     
     for num in nums {
