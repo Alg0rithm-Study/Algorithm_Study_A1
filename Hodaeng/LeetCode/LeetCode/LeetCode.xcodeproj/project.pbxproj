@@ -19,6 +19,7 @@
 		DE318E0827CD1EF000C78F0A /* Maximum ProductDifferenceBetweenTwoPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE318E0727CD1EF000C78F0A /* Maximum ProductDifferenceBetweenTwoPairs.swift */; };
 		DE4026372792582400FE0EB9 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */; };
 		DE40263927925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40263827925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift */; };
+		DE44547B27E77A7C00D13EF5 /* CountNegativeNumbersInASortedMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE44547A27E77A7C00D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */; };
 		DE47D71627CDC63000E727F3 /* FindTargetIndicesAfterSortingArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71527CDC63000E727F3 /* FindTargetIndicesAfterSortingArray.swift */; };
 		DE47D71A27CDC96A00E727F3 /* ArrayPartition1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE47D71927CDC96A00E727F3 /* ArrayPartition1.swift */; };
 		DE5E677827C4FBE4001BBADA /* SortingTheSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E677727C4FBE4001BBADA /* SortingTheSentence.swift */; };
@@ -62,6 +63,7 @@
 		DE318E0727CD1EF000C78F0A /* Maximum ProductDifferenceBetweenTwoPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum ProductDifferenceBetweenTwoPairs.swift"; sourceTree = "<group>"; };
 		DE4026362792582300FE0EB9 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
 		DE40263827925F1F00FE0EB9 /* NumberOfStudentsUnableToEatLunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfStudentsUnableToEatLunch.swift; sourceTree = "<group>"; };
+		DE44547A27E77A7C00D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNegativeNumbersInASortedMatrix.swift; sourceTree = "<group>"; };
 		DE47D71527CDC63000E727F3 /* FindTargetIndicesAfterSortingArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTargetIndicesAfterSortingArray.swift; sourceTree = "<group>"; };
 		DE47D71927CDC96A00E727F3 /* ArrayPartition1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayPartition1.swift; sourceTree = "<group>"; };
 		DE5E677727C4FBE4001BBADA /* SortingTheSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTheSentence.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE44547927E77A6000D13EF5 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				DE44547A27E77A7C00D13EF5 /* CountNegativeNumbersInASortedMatrix.swift */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
 		DE7E47EE278B2B7C00B1A91C = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		DE7E47F9278B2B7C00B1A91C /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DE44547927E77A6000D13EF5 /* BinarySearch */,
 				DEE52B7E27C1D87600D511A6 /* Sorting */,
 				DEAC516A279078FD003D66EC /* Queue */,
 				DEAC5169279078F1003D66EC /* Stack */,
@@ -253,6 +264,7 @@
 				DED44A7E27C3BFE100CDD89D /* HowManyNumbersAreSmallerThanTheCurrentNumber.swift in Sources */,
 				DEAC516C2790795B003D66EC /* MaximumNestingDepthOfTheParentheses.swift in Sources */,
 				DE7E480E278B310E00B1A91C /* FinalValueOfVariableAfterPerformingOperations.swift in Sources */,
+				DE44547B27E77A7C00D13EF5 /* CountNegativeNumbersInASortedMatrix.swift in Sources */,
 				DEE52B8027C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift in Sources */,
 				DE212FDA2797953C003EDDEB /* ImplementStackUsingQueues.swift in Sources */,
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
