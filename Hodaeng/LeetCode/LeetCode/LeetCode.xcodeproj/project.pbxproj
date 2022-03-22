@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE01D13827EA1EEA00F611CB /* RangeSumOfBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE01D13727EA1EEA00F611CB /* RangeSumOfBST.swift */; };
 		DE02A6432790FCE00089F08A /* NumberOfRecentCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE02A6422790FCE00089F08A /* NumberOfRecentCalls.swift */; };
 		DE06BCD6278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */; };
 		DE06BCD8278C7E60003F221A /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06BCD7278C7E60003F221A /* ReverseLinkedList.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE01D13727EA1EEA00F611CB /* RangeSumOfBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeSumOfBST.swift; sourceTree = "<group>"; };
 		DE02A6422790FCE00089F08A /* NumberOfRecentCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfRecentCalls.swift; sourceTree = "<group>"; };
 		DE06BCD5278C7909003F221A /* MaximumNumberOfWordsFoundInSentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumNumberOfWordsFoundInSentence.swift; sourceTree = "<group>"; };
 		DE06BCD7278C7E60003F221A /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
@@ -96,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE01D13627EA1EDB00F611CB /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				DE01D13727EA1EEA00F611CB /* RangeSumOfBST.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
 		DE44547927E77A6000D13EF5 /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		DE7E47F9278B2B7C00B1A91C /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				DE01D13627EA1EDB00F611CB /* Tree */,
 				DE44547927E77A6000D13EF5 /* BinarySearch */,
 				DEE52B7E27C1D87600D511A6 /* Sorting */,
 				DEAC516A279078FD003D66EC /* Queue */,
@@ -271,6 +282,7 @@
 				DEE52B8027C1D8D000D511A6 /* MinimumSumOfFourDigitNumberAfterSplittingDigits.swift in Sources */,
 				DE212FDA2797953C003EDDEB /* ImplementStackUsingQueues.swift in Sources */,
 				DE7E4806278B2CA100B1A91C /* ConcatenationOfArray.swift in Sources */,
+				DE01D13827EA1EEA00F611CB /* RangeSumOfBST.swift in Sources */,
 				DE229A06278DCFEF00B46E3B /* MergeTwoSortedLists.swift in Sources */,
 				DE02A6432790FCE00089F08A /* NumberOfRecentCalls.swift in Sources */,
 				DE193C59279682E700ECF346 /* RemoveAllAdjacentDuplicatesInString.swift in Sources */,
