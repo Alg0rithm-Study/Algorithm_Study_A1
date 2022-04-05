@@ -1,7 +1,5 @@
 import XCTest
-@testable import DataStructures
 
-// 여기는 왜 그냥 함수가 올수있지???
 // Add Serialize Function
 func serialize<Element>(rootNode: BinaryNode<Element>) -> [Element?] {
     // 3개 Node가 있을 때 parent, leftChild, rightChild 순으로 visit
