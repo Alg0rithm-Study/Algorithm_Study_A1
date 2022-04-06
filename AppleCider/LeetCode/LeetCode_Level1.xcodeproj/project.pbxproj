@@ -19,6 +19,10 @@
 		3692435227CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692435127CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift */; };
 		3692435427CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692435327CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift */; };
 		3692435627CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692435527CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift */; };
+		36C0A00D27FDC53B0031C83C /* [애플사이다] The K Weakest Rows in a Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0A00C27FDC53B0031C83C /* [애플사이다] The K Weakest Rows in a Matrix.swift */; };
+		36C0A00F27FDC55C0031C83C /* [애플사이다] Range Sum of BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0A00E27FDC55C0031C83C /* [애플사이다] Range Sum of BST.swift */; };
+		36C0A01127FDC5850031C83C /* [애플사이다] Count Negative Numbers in a Sorted Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0A01027FDC5850031C83C /* [애플사이다] Count Negative Numbers in a Sorted Matrix.swift */; };
+		36C0A01327FDC5A00031C83C /* [애플사이다] Maximum Product of Two Elements in an Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0A01227FDC5A00031C83C /* [애플사이다] Maximum Product of Two Elements in an Array.swift */; };
 		36D2140527AAB222003C6A77 /* [애플사이다] Number of Recent Calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2140427AAB222003C6A77 /* [애플사이다] Number of Recent Calls.swift */; };
 		36D2140927AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2140827AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift */; };
 		36D2140B27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2140A27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift */; };
@@ -57,6 +61,10 @@
 		3692435127CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Minimum Number of Moves to Seat Everyone.swift"; sourceTree = "<group>"; };
 		3692435327CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Maximum Product Difference Between Two Pairs.swift"; sourceTree = "<group>"; };
 		3692435527CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Array Partition I.swift"; sourceTree = "<group>"; };
+		36C0A00C27FDC53B0031C83C /* [애플사이다] The K Weakest Rows in a Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] The K Weakest Rows in a Matrix.swift"; sourceTree = "<group>"; };
+		36C0A00E27FDC55C0031C83C /* [애플사이다] Range Sum of BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Range Sum of BST.swift"; sourceTree = "<group>"; };
+		36C0A01027FDC5850031C83C /* [애플사이다] Count Negative Numbers in a Sorted Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Count Negative Numbers in a Sorted Matrix.swift"; sourceTree = "<group>"; };
+		36C0A01227FDC5A00031C83C /* [애플사이다] Maximum Product of Two Elements in an Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Maximum Product of Two Elements in an Array.swift"; sourceTree = "<group>"; };
 		36D2140427AAB222003C6A77 /* [애플사이다] Number of Recent Calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Number of Recent Calls.swift"; sourceTree = "<group>"; };
 		36D2140827AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Remove All Adjacent Duplicates In String.swift"; sourceTree = "<group>"; };
 		36D2140A27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] Build an Array With Stack Operations.swift"; sourceTree = "<group>"; };
@@ -83,6 +91,8 @@
 		3637AE01278D0515009003B7 = {
 			isa = PBXGroup;
 			children = (
+				36C0A00A27FDC4FB0031C83C /* Heap */,
+				36C0A00B27FDC5070031C83C /* Tree */,
 				3692435027CE8C1C004F0FE4 /* Sorting */,
 				36D2140327AAB208003C6A77 /* Queue */,
 				36D2140727AAB2A7003C6A77 /* Stack */,
@@ -120,6 +130,24 @@
 				3692435527CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift */,
 			);
 			path = Sorting;
+			sourceTree = "<group>";
+		};
+		36C0A00A27FDC4FB0031C83C /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				36C0A01227FDC5A00031C83C /* [애플사이다] Maximum Product of Two Elements in an Array.swift */,
+			);
+			path = Heap;
+			sourceTree = "<group>";
+		};
+		36C0A00B27FDC5070031C83C /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				36C0A00C27FDC53B0031C83C /* [애플사이다] The K Weakest Rows in a Matrix.swift */,
+				36C0A00E27FDC55C0031C83C /* [애플사이다] Range Sum of BST.swift */,
+				36C0A01027FDC5850031C83C /* [애플사이다] Count Negative Numbers in a Sorted Matrix.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		36D2140327AAB208003C6A77 /* Queue */ = {
@@ -220,14 +248,18 @@
 				3692435227CE8C35004F0FE4 /* [애플사이다] Minimum Number of Moves to Seat Everyone.swift in Sources */,
 				3637AE19278D07E1009003B7 /* [애플사이다] Final Value of Variable After Performing Operations.swift in Sources */,
 				361A66C2279561EE00A633B5 /* [애플사이다] Running Sum of 1d Array.swift in Sources */,
+				36C0A00F27FDC55C0031C83C /* [애플사이다] Range Sum of BST.swift in Sources */,
 				361A66C0279561CE00A633B5 /* [애플사이다] Maximum Number of Words Found in Sentences.swift in Sources */,
 				361A66C42795708800A633B5 /* [애플사이다] Convert Binary Number in a Linked List to Integer.swift in Sources */,
 				3692435427CE8C53004F0FE4 /* [애플사이다] Maximum Product Difference Between Two Pairs.swift in Sources */,
+				36C0A00D27FDC53B0031C83C /* [애플사이다] The K Weakest Rows in a Matrix.swift in Sources */,
+				36C0A01327FDC5A00031C83C /* [애플사이다] Maximum Product of Two Elements in an Array.swift in Sources */,
 				36D617B927979E5100F7A9AB /* [애플사이다] Maximum Nesting Depth of the Parentheses.swift in Sources */,
 				36D2140927AAB2EE003C6A77 /* [애플사이다] Remove All Adjacent Duplicates In String.swift in Sources */,
 				36D2141127ABC4D3003C6A77 /* [애플사이다] Implement Queue using Stacks.swift in Sources */,
 				361A66CA2795715200A633B5 /* [애플사이다] Reverse Linked List.swift in Sources */,
 				36D617BB2797C22B00F7A9AB /* [애플사이다] Remove Outermost Parentheses.swift in Sources */,
+				36C0A01127FDC5850031C83C /* [애플사이다] Count Negative Numbers in a Sorted Matrix.swift in Sources */,
 				36D2140B27AAB2FF003C6A77 /* [애플사이다] Build an Array With Stack Operations.swift in Sources */,
 				3692435627CE8C61004F0FE4 /* [애플사이다] Array Partition I.swift in Sources */,
 				3637AE15278D0524009003B7 /* [애플사이다] Build Array from Permutation.swift in Sources */,
