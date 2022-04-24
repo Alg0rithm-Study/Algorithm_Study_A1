@@ -18,6 +18,7 @@
 		36C0BFEE2810E10400B57492 /* [애플사이다] 신규 아이디 추천.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0BFED2810E10400B57492 /* [애플사이다] 신규 아이디 추천.swift */; };
 		36C0C0982813E2D500B57492 /* [애플사이다] 키패드 누르기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0C0972813E2D500B57492 /* [애플사이다] 키패드 누르기.swift */; };
 		36C0C09A2813E31F00B57492 /* [애플사이다] 다트게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0C0992813E31F00B57492 /* [애플사이다] 다트게임.swift */; };
+		36C0C09C281576D400B57492 /* [애플사이다] 체육복.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0C09B281576D400B57492 /* [애플사이다] 체육복.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		36C0BFED2810E10400B57492 /* [애플사이다] 신규 아이디 추천.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] 신규 아이디 추천.swift"; sourceTree = "<group>"; };
 		36C0C0972813E2D500B57492 /* [애플사이다] 키패드 누르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] 키패드 누르기.swift"; sourceTree = "<group>"; };
 		36C0C0992813E31F00B57492 /* [애플사이다] 다트게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] 다트게임.swift"; sourceTree = "<group>"; };
+		36C0C09B281576D400B57492 /* [애플사이다] 체육복.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "[애플사이다] 체육복.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				36C0BFED2810E10400B57492 /* [애플사이다] 신규 아이디 추천.swift */,
 				36C0C0992813E31F00B57492 /* [애플사이다] 다트게임.swift */,
 				36C0C0972813E2D500B57492 /* [애플사이다] 키패드 누르기.swift */,
+				36C0C09B281576D400B57492 /* [애플사이다] 체육복.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				36C0C0982813E2D500B57492 /* [애플사이다] 키패드 누르기.swift in Sources */,
 				3691266527857987002304D4 /* [애플사이다] x만큼 간격이 있는 n개의 숫자.swift in Sources */,
+				36C0C09C281576D400B57492 /* [애플사이다] 체육복.swift in Sources */,
 				3691266B278579D7002304D4 /* [애플사이다] 하샤드의 수.swift in Sources */,
 				36C0BFEC2810D81E00B57492 /* [애플사이다] 부족한 금액 계산하기.swift in Sources */,
 				36C0BFEE2810E10400B57492 /* [애플사이다] 신규 아이디 추천.swift in Sources */,
